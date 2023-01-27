@@ -14,8 +14,17 @@ start text.txt    (파일 여는데 mac에서는 start 대신 open)
 rm text2.txt    (파일삭제)
 rm -r folder    (디렉토리 삭제)
 
+파이썬에서 가상환경을 통해서 개발을 하는것을 알아보자
+가상환경은 쉽게 이야기 하자면 프로젝트 별로 package를 따로 관리 하는 것
+cd pt1    
+python -m venv turtle가상환경이름         <가상환경 만들기>
+source turtle/Scripts/activate    <가상환경 활성화>
+pip install numpy         <넘파이 패키지 설치해보기>
+deactivate        <가상환경 비활성화>
+
+git init
+git remote add 이름(origin) 주소(https://~~)
+git add .
+git commit -m "~~~"
+git push origin master
 ```
-
-
-
-
