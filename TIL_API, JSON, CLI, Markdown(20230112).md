@@ -67,7 +67,4 @@ git add *.txt 모든 txt파일
 git . 현재 디렉토리 내 모든 파일
 git reset -- a.txt unstaged로 내리기(동시에 원격저장소의 파일 삭제)
 git rm --cached a.txt unstaged로 내리기(스테이징에서 파일만 내리기)
-
 ```
-
-
